@@ -1,0 +1,152 @@
+*{
+    background-color: #43a3cc;
+    color: white;
+}
+.navbar{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+
+nav{
+   text-align: right; 
+   flex: 1;
+   
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(7, 2, 2);
+    font-size: 25px;
+    color: white;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile{
+    border-radius: 100%;
+    width: 60%;
+}
+.left{
+    text-align: left;
+}
+.btn{
+    padding: 1rem;
+}
+.btn-primary{
+    background-color: #000000;
+    border: none;
+    
+
+}
+.about-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about-col{
+    padding: 2rem;
+}
+.whatido-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.whatido-col{
+    padding: 2rem;
+    background-color: #ffffff;
+    width: 20%;
+    border-radius: 5%;
+    word-wrap:break-word;
+}
+.skills-row{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color:#ffffff;
+}
+.skills-col{
+    padding: 2rem;
+    background-color:#ffffff;
+}
+.getintouch{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+input{
+    padding: 1rem;
+    width: 40%;
+}
+.grey{
+    color: #000000;
+}
+.grey-bg{
+    background-color:#ffffff;
+}
+.green{
+    color: #000000;
+    font-size: larger;
+}
+@media screen and (max-width: 672px){
+.whatido-row{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.whatido-col{
+    flex-basis: 50%;
+    text-align: center;
+}
+.about-col{
+    flex-basis: 50%;
+}
+.skills-col{
+    flex-basis: 50%;
+}
+.about-row{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.skills-row{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.col{
+    flex-basis: 50%;
+    margin-top: 2rem;
+}
+
+}
